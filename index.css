@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    text-align: center; 
+    color: white;
+    font-family: "Play", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 400px;
+    height: 275px;
+    border: solid white;
+    margin-top: 50px;
+    background: #1b244a;
+    border-radius: 20px;
+}
+
+.container-home,
+.container-away {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-home,
+#button-away {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#score-home,
+#score-away {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 0px auto 20px auto;
+}
+
+button {
+    background: none;
+    color: white;
+    Border: solid white 1px;
+    border-radius: 5px;
+    font-family: "Play", sans-serif;
+    
+}
+
+.clear-btn {
+    font-family: "Play", sans-serif;
+    margin: 10px 20px 0;
+}
+
+#score-home, #score-away, #button-home, #button-away, #clear-btn, .clear-btn {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto; /* centers them */
+}
+
+#button-home, #button-away {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+}
